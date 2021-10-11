@@ -80,7 +80,7 @@ test('snapshot test s3 proxy farm with load balancer', () => {
     crossZoneEnabled: true,
     internetFacing: false,
     vpcSubnets: {
-      subnetType: ec2.SubnetType.PRIVATE,
+      subnetType: ec2.SubnetType.PRIVATE_WITH_NAT,
     },
   });
 
