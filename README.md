@@ -1,5 +1,7 @@
 # aws-s3-proxy-farm module
 
+*Note: Thos repo is no longer maintained and provided as is as a sample*
+
 A [Virtual Private Cloud Endpoint](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-endpoints.html) enables a private connection between a VPC and another AWS service without leaving the Amazon network. VPC endpoints also provide additional security features such as the ability to lock down S3 buckets to specific VPCs.
 This feature is available to Amazon EC2 instances running inside of a VPC, however many AWS customers would like to leverage VPC endpoints from remote networks.
 
